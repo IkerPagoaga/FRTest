@@ -1,0 +1,123 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contact-list {
+  padding: 20px;
+  background-color: #fefefe31;
+  border: 1px solid #888;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.contact-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #333;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #444;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0 5px;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: #fefefe31;
+  border: 1px solid #888;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+.contact-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.submit-button {
+  justify-self: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.submit-button:hover {
+  border-color: #444;
+}
+
+.submit-button:focus,
+.submit-button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
